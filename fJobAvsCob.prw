@@ -8,17 +8,17 @@
 #INCLUDE "TOTVS.CH"
     
 /*/
-�����������������������������������������������������������������������������
-�����������������������������������������������������������������������������
-�������������������������������������������������������������������������Ŀ��
-���Fun��o    �fJobAvsCob� Autor � Alexandre Takaki      � Data �02/03/2018���
-�������������������������������������������������������������������������Ĵ��
-���Descri��o � ROTINA PARA ENVIAR EMAIL PARA AVISO E COBRAN�A - SE1.      ���
-�������������������������������������������������������������������������Ĵ��
-���Sintaxe   � TAKAKI			                                          ���
-��������������������������������������������������������������������������ٱ�
-�����������������������������������������������������������������������������
-�����������������������������������������������������������������������������
+ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ
+±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+±±ÚÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄ¿±±
+±±³Fun‡„o    ³fJobAvsCob³                               ³ Data ³02/03/2018³±±
+±±ÃÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄ´±±
+±±³Descri‡„o ³ ROTINA PARA ENVIAR EMAIL PARA AVISO E COBRANÇA - SE1.      ³±±
+±±ÃÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´±±
+±±³Sintaxe   ³ 			                                          ³±±
+±±ÀÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ±±
+±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+ßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßß
 /*/
 User Function fJobAvsCob()
 
@@ -74,17 +74,17 @@ User Function fJobAvsCob()
 Return
 
 /*/
-�����������������������������������������������������������������������������
-�����������������������������������������������������������������������������
-�������������������������������������������������������������������������Ŀ��
-���Fun��o    �fProcessa � Autor � Alexandre Takaki      � Data �02/03/2018���
-�������������������������������������������������������������������������Ĵ��
-���Descri��o � ROTINA PARA ENVIAR EMAIL PARA AVISO E COBRAN�A - SE1.      ���
-�������������������������������������������������������������������������Ĵ��
-���Sintaxe   � TAKAKI			                                          ���
-��������������������������������������������������������������������������ٱ�
-�����������������������������������������������������������������������������
-�����������������������������������������������������������������������������
+ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ
+±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+±±ÚÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄ¿±±
+±±³Fun‡„o    ³fProcessa ³                               ³ Data ³02/03/2018³±±
+±±ÃÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄ´±±
+±±³Descri‡„o ³ ROTINA PARA ENVIAR EMAIL PARA AVISO E COBRANÇA - SE1.      ³±±
+±±ÃÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´±±
+±±³Sintaxe   ³ 			                                          ³±±
+±±ÀÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ±±
+±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+ßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßß
 /*/
 Static Function fProcessa()
 
@@ -657,17 +657,17 @@ Static Function fProcessa()
 Return
 
 /*/
-�����������������������������������������������������������������������������
-�����������������������������������������������������������������������������
-�������������������������������������������������������������������������Ŀ��
-���Fun��o    �fEnvioMail� Autor � Alexandre Takaki      � Data �02/03/2018���
-�������������������������������������������������������������������������Ĵ��
-���Descri��o � ROTINA PARA ENVIAR EMAIL PARA AVISO E COBRAN�A - SE1.      ���
-�������������������������������������������������������������������������Ĵ��
-���Sintaxe   � TAKAKI			                                          ���
-��������������������������������������������������������������������������ٱ�
-�����������������������������������������������������������������������������
-�����������������������������������������������������������������������������
+ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ
+±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+±±ÚÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄ¿±±
+±±³Fun‡„o    ³fEnvioMail³                               ³ Data ³02/03/2018³±±
+±±ÃÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄ´±±
+±±³Descri‡„o ³ ROTINA PARA ENVIAR EMAIL PARA AVISO E COBRANÇA - SE1.      ³±±
+±±ÃÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´±±
+±±³Sintaxe   ³  		                                          ³±±
+±±ÀÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ±±
+±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+ßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßß
 /*/
 Static Function fEnvioMail(aDados)
 
@@ -708,8 +708,8 @@ Static Function fEnvioMail(aDados)
   	cPass 		:= GETMV("MV_XPSW") 	//"costa123" //define the e-mail account password
   	cSendSrv 	:= GETMV("MV_XSMTP")	//"smtp.gmail.com" // define the send server
   	nTimeout 	:= GETMV("MV_XTIMEO") 	//120 // define the timout to 60 seconds
-  	cMailTo 	:= "" // GETMV("MV_XTOEMAI")	//Define os E-mails que ser�o enviados no PARA      
-  	cMailCC		:= Alltrim(GETMV("MV_XCCEMAI"))	//Define os E-mails que ser�o enviados no C�pia      
+  	cMailTo 	:= "" // GETMV("MV_XTOEMAI")	//Define os E-mails que serão enviados no PARA      
+  	cMailCC		:= Alltrim(GETMV("MV_XCCEMAI"))	//Define os E-mails que serão enviados no Cópia      
    	
 	cMsg 		:= ""
 	cTipo 		:= aDados[1]
@@ -736,20 +736,20 @@ Static Function fEnvioMail(aDados)
 	ElseIf cTipo == "AV00"
 		cTitulo := "Sistema Costa Norte - Aviso de Vencimento (Hoje)"	
 	ElseIf cTipo == "CB03"
-		cTitulo := "Sistema Costa Norte - Aviso de T�tulo em Atraso (3 Dias)"
+		cTitulo := "Sistema Costa Norte - Aviso de Título em Atraso (3 Dias)"
 	ElseIf cTipo == "CB08"
-		cTitulo := "Sistema Costa Norte - Aviso de T�tulo em Atraso (8 Dias)"				
+		cTitulo := "Sistema Costa Norte - Aviso de Título em Atraso (8 Dias)"				
 	ElseIf cTipo == "CB15"
-		cTitulo := "Sistema Costa Norte - Aviso de T�tulo em Atraso (15 Dias)"	
+		cTitulo := "Sistema Costa Norte - Aviso de Título em Atraso (15 Dias)"	
 	ElseIf cTipo == "FM20"
-		cTitulo := "Sistema Costa Norte � Suspen��o de Contrato (20 Dias)"	
+		cTitulo := "Sistema Costa Norte – Suspenção de Contrato (20 Dias)"	
 	EndIf
 	
 	cMsg +=' <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"> '
 	cMsg +=' <html> '
 	cMsg +='     <head> '
 	cMsg +='         <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"> '
-	cMsg +='         <title>Aviso - Sistema Costa Norte de Comunica��o</title> '
+	cMsg +='         <title>Aviso - Sistema Costa Norte de Comunicação</title> '
 	cMsg +='         <style type="text/css"> '
 	cMsg +='         a:hover {  text-decoration: underline} '
 	cMsg +=' 	    a:link {  text-decoration: none} '
@@ -795,7 +795,7 @@ Static Function fEnvioMail(aDados)
 	cMsg +=' 						<tr> '
 	cMsg +='                             <td valign="top"> '
 	cMsg +='                                 <fieldset> '
-	cMsg +='                                     <legend class="titulo">Aviso de vencimento de t�tulo</legend> '
+	cMsg +='                                     <legend class="titulo">Aviso de vencimento de título</legend> '
 	cMsg +='                                     <table border="0" cellpadding="5" cellspacing="3"> '
 	If Substr(cTipo,1,2) == "AV"
 		cMsg +='                                         <tr> '
@@ -810,9 +810,9 @@ Static Function fEnvioMail(aDados)
 		cMsg +=' 												<br><br> '
 		
 		If !Empty(cNumDig)
-			cMsg +=' 												Para sua comodidade segue abaixo o c�digo de barras de seu boleto: ' 
+			cMsg +=' 												Para sua comodidade segue abaixo o código de barras de seu boleto: ' 
 			cMsg +=' 												<br><br> '
-			cMsg +=' 												C�digo de Barras: '+cNumDig+ ''
+			cMsg +=' 												Código de Barras: '+cNumDig+ ''
 			cMsg +=' 												<br><br> '
 		EndIf
 		
@@ -823,11 +823,11 @@ Static Function fEnvioMail(aDados)
 			cMsg +=' 												<br><br> '
 		EndIf
 		
-		cMsg +=' 												Servi�o referente a: '+cHistorico+ ''
+		cMsg +=' 												Serviço referente a: '+cHistorico+ ''
 		cMsg +=' 												<br><br> '
 		cMsg +=' 												*Caso tenha efetuado o pagamento, por favor desconsiderar este e-mail. '
 		cMsg +=' 												<br><br> '
-		cMsg +=' 												Sistema Costa Norte de Comunica��o '
+		cMsg +=' 												Sistema Costa Norte de Comunicação '
 		cMsg +=' 												<br><br> '
 		cMsg +=' 												<a href="http://www.costanorte.com.br" target="blank">www.costanorte.com.br</a> '
 		cMsg +=' 											</td> '
@@ -835,19 +835,19 @@ Static Function fEnvioMail(aDados)
 	ElseIf Substr(cTipo,1,2) == "CB"
 		cMsg +='                                         <tr> '
 		cMsg +='                                             <td class="texto"> '
-		cMsg +='												Aviso de t�tulo em atraso. '
+		cMsg +='												Aviso de título em atraso. '
 		cMsg +=' 												<br><br> '
 		cMsg +=' 												Prezado cliente '+cNome+', '
 		cMsg +=' 												<br><br> '
 		cMsg +=' 												CONTRATO/TITULO: '+cNumTit+ ' / Parcela: '+cParcela+ '.'
 		cMsg +=' 												<br><br> '
-		cMsg +=' 												N�o consta em nosso sistema o pagamento do t�tulo vencido em '+cVencReal+'*. '
+		cMsg +=' 												Não consta em nosso sistema o pagamento do título vencido em '+cVencReal+'*. '
 		cMsg +=' 												<br><br> '
 		
 		If !Empty(cNumDig)
-			cMsg +=' 												Para atualiza��o de seu boleto utilize o c�digo de barras no link abaixo: ' 
+			cMsg +=' 												Para atualização de seu boleto utilize o código de barras no link abaixo: ' 
 			cMsg +=' 												<br><br> '
-			cMsg +=' 												C�digo de Barras: '+cNumDig+ ''
+			cMsg +=' 												Código de Barras: '+cNumDig+ ''
 			cMsg +=' 												<br><br> '
 			cMsg +=' 												<center><a href="https://www.itau.com.br/servicos/boletos/atualizar/" target="blank">www.itau.com.br/servicos/boletos/atualizar/</a></center> '
 			cMsg +=' 												<br><br> '
@@ -860,15 +860,15 @@ Static Function fEnvioMail(aDados)
 			cMsg +=' 												<br><br> '
 		EndIf
 		
-		cMsg +=' 												Servi�o referente a: '+cHistorico+ ''
+		cMsg +=' 												Serviço referente a: '+cHistorico+ ''
 		cMsg +=' 												<br><br> '
 		cMsg +=' 												*Caso tenha efetuado o pagamento, por favor desconsiderar este e-mail. '
 		cMsg +=' 												<br><br> '
-		cMsg +=' 												�Lembramos que a partir do vig�simo dia de atraso os servi�os ser�o suspensos. '
+		cMsg +=' 												¹Lembramos que a partir do vigésimo dia de atraso os serviços serão suspensos. '
 		cMsg +=' 												<br><br> '
-		cMsg +=' 												�Evite multas e juros, mantenha seus pagamentos em dia. '
+		cMsg +=' 												²Evite multas e juros, mantenha seus pagamentos em dia. '
 		cMsg +=' 												<br><br> '
-		cMsg +=' 												Sistema Costa Norte de Comunica��o '
+		cMsg +=' 												Sistema Costa Norte de Comunicação '
 		cMsg +=' 												<br><br> '
 		cMsg +=' 												<a href="http://www.costanorte.com.br" target="blank">www.costanorte.com.br</a> '
 		cMsg +=' 											</td> '
@@ -876,21 +876,21 @@ Static Function fEnvioMail(aDados)
 	ElseIf Substr(cTipo,1,2) == "FM"
 		cMsg +='                                         <tr> '
 		cMsg +='                                             <td class="texto"> '
-		cMsg +='												Aviso de suspens�o de servi�os. '
+		cMsg +='												Aviso de suspensão de serviços. '
 		cMsg +=' 												<br><br> '
 		cMsg +=' 												Prezado cliente '+cNome+', '
 		cMsg +=' 												<br><br> '
 		cMsg +=' 												CONTRATO/TITULO: '+cNumTit+ ' / Parcela: '+cParcela+ '.'
 		cMsg +=' 												<br><br> '
-		cMsg +=' 												N�o consta em nosso sistema o pagamento do t�tulo vencido em '+cVencReal+'*. '
+		cMsg +=' 												Não consta em nosso sistema o pagamento do título vencido em '+cVencReal+'*. '
 		cMsg +=' 												<br><br> '
-		cMsg +=' 												Em virtude do atraso no pagamento da parcela referente ao contrato firmado e da aus�ncia de retorno sobre o assunto, estamos suspendendo os servi�os temporariamente at� a regulariza��o do mesmo. ' 
+		cMsg +=' 												Em virtude do atraso no pagamento da parcela referente ao contrato firmado e da ausência de retorno sobre o assunto, estamos suspendendo os serviços temporariamente até a regularização do mesmo. ' 
 		cMsg +=' 												<br><br> '
 		
 		If !Empty(cNumDig)
-			cMsg +=' 												Para regularizar a situa��o de seu contrato basta fazer a atualiza��o de seu boleto utilizando o c�digo de barras no link abaixo: '
+			cMsg +=' 												Para regularizar a situação de seu contrato basta fazer a atualização de seu boleto utilizando o código de barras no link abaixo: '
 			cMsg +=' 												<br><br> '
-			cMsg +=' 												C�digo de Barras: '+cNumDig+ ''
+			cMsg +=' 												Código de Barras: '+cNumDig+ ''
 			cMsg +=' 												<br><br> '
 			cMsg +=' 												<center><a href="https://www.itau.com.br/servicos/boletos/atualizar/" target="blank">www.itau.com.br/servicos/boletos/atualizar/</a></center> '
 			cMsg +=' 												<br><br> '
@@ -903,13 +903,13 @@ Static Function fEnvioMail(aDados)
 			cMsg +=' 												<br><br> '
 		EndIf
 		
-		cMsg +=' 												Servi�o referente a: '+cHistorico+ ''
+		cMsg +=' 												Serviço referente a: '+cHistorico+ ''
 		cMsg +=' 												<br><br> '	
 		cMsg +=' 												*Caso tenha efetuado o pagamento, por favor desconsiderar este e-mail. '
 		cMsg +=' 												<br><br> '
-		cMsg +=' 												�Evite multas e juros, mantenha seus pagamentos em dia. '
+		cMsg +=' 												¹Evite multas e juros, mantenha seus pagamentos em dia. '
 		cMsg +=' 												<br><br> '
-		cMsg +=' 												Sistema Costa Norte de Comunica��o '
+		cMsg +=' 												Sistema Costa Norte de Comunicação '
 		cMsg +=' 												<br><br> '
 		cMsg +=' 												<a href="http://www.costanorte.com.br" target="blank">www.costanorte.com.br</a> '
 		cMsg +=' 											</td> '
@@ -943,27 +943,27 @@ Static Function fEnvioMail(aDados)
 	
 	xRet := oServer:Init( "", cSendSrv, cUser, cPass, , nSendPort )
   	If xRet != 0
-	  	cMsg := "N�o foi poss�vel inicializar o servidor SMTP: " + oServer:GetErrorString( xRet )
+	  	cMsg := "Não foi possível inicializar o servidor SMTP: " + oServer:GetErrorString( xRet )
 	  	conout( cMsg )
   		return
   	EndIf
   	
   	xRet := oServer:SetSMTPTimeout( nTimeout )
   	If xRet != 0
-    	cMsg := "N�o foi poss�vel setar: " + cProtocol + " TimeOut: " + cValToChar( nTimeout )
+    	cMsg := "Não foi possível setar: " + cProtocol + " TimeOut: " + cValToChar( nTimeout )
     	conout( cMsg )
   	EndIf
 	
 	xRet := oServer:SMTPConnect()
   	If xRet <> 0
-    	cMsg := "N�o foi poss�vel conectar com o servidor SMTP: " + oServer:GetErrorString( xRet )
+    	cMsg := "Não foi possível conectar com o servidor SMTP: " + oServer:GetErrorString( xRet )
     	conout( cMsg )
     	return
   	EndIf
   	
   	xRet := oServer:SmtpAuth( cUser, cPass )
   	If xRet <> 0
-    	cMsg := "N�o foi poss�vel autenticar com o servidor SMTP: " + oServer:GetErrorString( xRet )
+    	cMsg := "Não foi possível autenticar com o servidor SMTP: " + oServer:GetErrorString( xRet )
     	conout( cMsg )
     	oServer:SMTPDisconnect()
     	return
@@ -984,7 +984,7 @@ Static Function fEnvioMail(aDados)
    	If !Empty(cAnexoAux)
 	   	xRet := oMessage:AttachFile( cAnexoAux )
 	  	If xRet < 0
-		    cMsg := "N�o foi poss�vel anexar o arquivo: " + cAnexoAux
+		    cMsg := "Não foi possível anexar o arquivo: " + cAnexoAux
 		    conout( cMsg )
 		Else
 		    SE1->(DbGoTo(nSE1Recno))
@@ -997,7 +997,7 @@ Static Function fEnvioMail(aDados)
    	
   	xRet := oMessage:Send( oServer )
   	if xRet <> 0
-    	cMsg := "N�o foi poss�vel enviar o e-mail: " + oServer:GetErrorString( xRet )
+    	cMsg := "Não foi possível enviar o e-mail: " + oServer:GetErrorString( xRet )
     	conout( cMsg )
   	Else
   		conout( "E-mail enviado com Sucesso" ) 
@@ -1006,24 +1006,24 @@ Static Function fEnvioMail(aDados)
 	  
   	xRet := oServer:SMTPDisconnect()
   	If xRet <> 0
-    	cMsg := "N�o foi poss�vel desconectar do servidor SMTP: " + oServer:GetErrorString( xRet )
+    	cMsg := "Não foi possível desconectar do servidor SMTP: " + oServer:GetErrorString( xRet )
     	conout( cMsg )
   	EndIf	
    	
 Return(lRet)
 
 /*/
-�����������������������������������������������������������������������������
-�����������������������������������������������������������������������������
-�������������������������������������������������������������������������Ŀ��
-���Fun��o    � DiaUtil  � Autor � Alexandre Takaki      � Data �08/03/2018���
-�������������������������������������������������������������������������Ĵ��
-���Descri��o � ROTINA PARA ENVIAR EMAIL PARA AVISO E COBRAN�A - SE1.      ���
-�������������������������������������������������������������������������Ĵ��
-���Sintaxe   � TAKAKI			                                          ���
-��������������������������������������������������������������������������ٱ�
-�����������������������������������������������������������������������������
-�����������������������������������������������������������������������������
+ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ
+±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+±±ÚÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄ¿±±
+±±³Fun‡„o    ³ DiaUtil  ³                               ³ Data ³08/03/2018³±±
+±±ÃÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄ´±±
+±±³Descri‡„o ³ ROTINA PARA ENVIAR EMAIL PARA AVISO E COBRANÇA - SE1.      ³±±
+±±ÃÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´±±
+±±³Sintaxe    			                                          ³±±
+±±ÀÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ±±
+±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+ßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßß
 /*/
 Static Function DiaUtil(_dData, _nDias)
 	
@@ -1048,17 +1048,17 @@ Static Function DiaUtil(_dData, _nDias)
 Return _dData2
 
 /*/
-�����������������������������������������������������������������������������
-�����������������������������������������������������������������������������
-�������������������������������������������������������������������������Ŀ��
-���Fun��o    �FcnGerLink� Autor � Alexandre Takaki      � Data �13/04/2018���
-�������������������������������������������������������������������������Ĵ��
-���Descri��o � ROTINA PARA GERAR O LINK DA NOTA.			      		  ���
-�������������������������������������������������������������������������Ĵ��
-���Sintaxe   � TAKAKI			                                          ���
-��������������������������������������������������������������������������ٱ�
-�����������������������������������������������������������������������������
-�����������������������������������������������������������������������������
+ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ
+±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+±±ÚÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄ¿±±
+±±³Fun‡„o    ³FcnGerLink³                               ³ Data ³13/04/2018³±±
+±±ÃÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄ´±±
+±±³Descri‡„o ³ ROTINA PARA GERAR O LINK DA NOTA.			      		  ³±±
+±±ÃÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´±±
+±±³Sintaxe   			                                          ³±±
+±±ÀÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ±±
+±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+ßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßß
 /*/
 Static Function FcnGerLink(_cFilial,_cDocumento,_cNfeletr)
 
