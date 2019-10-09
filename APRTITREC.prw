@@ -2,18 +2,18 @@
 
 
 /*
-�����������������������������������������������������������������������������������
-�����������������������������������������������������������������������������������
-�������������������������������������������������������������������������������ͻ��
-���Programa  � APRTITREC	  �Autor  � Alexandre Takaki   � Data � 05/08/2018  ���
-�������������������������������������������������������������������������������͹��
-���Desc.     � ROTINA PARA ALTERAR E APROVAR OS TITULOS A RECEBER				���
-���          � 												      				���
-�������������������������������������������������������������������������������͹��
-���Uso       � TV COSTA NORTE	  		                                      	���
-�������������������������������������������������������������������������������ͼ��
-�����������������������������������������������������������������������������������
-�����������������������������������������������������������������������������������
+ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ
+±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+±±ÉÍÍÍÍÍÍÍÍÍÍÑÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍËÍÍÍÍÍÍÍÑÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍËÍÍÍÍÍÍÑÍÍÍÍÍÍÍÍÍÍÍÍÍ»±±
+±±ºPrograma  ³ APRTITREC	                           º Data ³ 05/08/2018  º±±
+±±ÌÍÍÍÍÍÍÍÍÍÍØÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÊÍÍÍÍÍÍÍÏÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÊÍÍÍÍÍÍÏÍÍÍÍÍÍÍÍÍÍÍÍÍ¹±±
+±±ºDesc.     ³ ROTINA PARA ALTERAR E APROVAR OS TITULOS A RECEBER				º±±
+±±º          ³ 												      				º±±
+±±ÌÍÍÍÍÍÍÍÍÍÍØÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¹±±
+±±ºUso       ³ TV COSTA NORTE	  		                                      	º±±
+±±ÈÍÍÍÍÍÍÍÍÍÍÏÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¼±±
+±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+ßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßß
 */
 User Function APRTITREC()
 
@@ -25,9 +25,9 @@ User Function APRTITREC()
 	Local aSay    := {}
 	Local aButton := {}
 	Local nOpcao  := 0
-	Local cDesc1  := "Este programa tem o objetivo de criar os t�tulos - SE1 atrav�s da integra��o"
-	Local cDesc2  := "do Protheus X Mundiware, conforme par�metros fornecido pelo usu�rio, sendo que o "
-	Local cDesc3  := "mesmo ser� efetuado com a data base do sistema."
+	Local cDesc1  := "Este programa tem o objetivo de criar os títulos - SE1 através da integração"
+	Local cDesc2  := "do Protheus X Mundiware, conforme parâmetros fornecido pelo usuário, sendo que o "
+	Local cDesc3  := "mesmo será efetuado com a data base do sistema."
 	Local aCpos   := {}
 	Local aCampos := {}
 	Local cMsg    := "" 
@@ -35,7 +35,7 @@ User Function APRTITREC()
 	
 	Private aRotina     := {}
 	Private cMarca      := ""
-	Private cCadastro   := OemToAnsi("Cria��o de T�tulos")
+	Private cCadastro   := OemToAnsi("Criação de Títulos")
 	Private cPerg       := "TKMARK01"
 	Private nTotal      := 0
 	Private cArquivo    := ""
@@ -108,7 +108,7 @@ User Function APRTITREC()
 	cFiltro += "Dtos(Z2_VENCTO) 	>= '" + Dtos(mv_par13) + "' .And. "
 	cFiltro += "Dtos(Z2_VENCTO) 	<= '" + Dtos(mv_par14) + "' "
 	
-	//Mostrar todos? 1=Sim;2=N�o
+	//Mostrar todos? 1=Sim;2=Não
 	//Z2_STATUS = 0 -> Pendente
 	//Z2_STATUS = 1 -> Criado SE1
 	If mv_par15 == 2
@@ -146,18 +146,18 @@ User Function APRTITREC()
 Return Nil 
 
 /*
-�����������������������������������������������������������������������������
-�����������������������������������������������������������������������������
-�������������������������������������������������������������������������ͻ��
-���Programa  � TKAltera �Autor  �Alexandre Takaki    � Data � 13/06/2018  ���
-�������������������������������������������������������������������������͹��
-���Desc.     �                                                            ���
-���          �                                                            ���
-�������������������������������������������������������������������������͹��
-���Uso       � COSTA NORTE                                                ���
-�������������������������������������������������������������������������ͼ��
-�����������������������������������������������������������������������������
-�����������������������������������������������������������������������������
+ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ
+±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+±±ÉÍÍÍÍÍÍÍÍÍÍÑÍÍÍÍÍÍÍÍÍÍËÍÍÍÍÍÍÍÑÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍËÍÍÍÍÍÍÑÍÍÍÍÍÍÍÍÍÍÍÍÍ»±±
+±±ºPrograma  ³ TKAltera                              º Data ³ 13/06/2018  º±±
+±±ÌÍÍÍÍÍÍÍÍÍÍØÍÍÍÍÍÍÍÍÍÍÊÍÍÍÍÍÍÍÏÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÊÍÍÍÍÍÍÏÍÍÍÍÍÍÍÍÍÍÍÍÍ¹±±
+±±ºDesc.     ³                                                            º±±
+±±º          ³                                                            º±±
+±±ÌÍÍÍÍÍÍÍÍÍÍØÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¹±±
+±±ºUso       ³ COSTA NORTE                                                º±±
+±±ÈÍÍÍÍÍÍÍÍÍÍÏÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¼±±
+±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+ßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßß
 */
 User Function TKAltera()
 
@@ -172,15 +172,15 @@ User Function TKAltera()
 	Local nRadio   		:= 0
 	Local cParcelas		:= Space(50)
 
-	aAdd(aRadio,"N�o")
+	aAdd(aRadio,"Não")
 	aAdd(aRadio,"Sim")
 		
 	//+----------------------------------------------------------------------------
-	//| Defini��o da janela e seus conte�dos
+	//| Definição da janela e seus conteúdos
 	//+----------------------------------------------------------------------------
 	DEFINE MSDIALOG _oDlg TITLE "Alterar os Valores" FROM 0,0 TO 275,552 OF _oDlg PIXEL
 	
-	@ 06,06 TO 130,271 LABEL "Campos edit�veis" OF _oDlg PIXEL
+	@ 06,06 TO 130,271 LABEL "Campos editáveis" OF _oDlg PIXEL
 	
 	@ 15, 15 SAY "Data Vencimento"		SIZE 70,8 PIXEL OF _oDlg
 	@ 25, 15 MSGET dDataVenc 			PICTURE "99/99/99" SIZE 76,10 PIXEL OF _oDlg
@@ -191,16 +191,16 @@ User Function TKAltera()
 	@ 40, 15 SAY "Vendedor" 			SIZE 45,8 PIXEL OF _oDlg
 	@ 50, 15 MSGET cVendedor	 		PICTURE "@!" F3 "SA3" SIZE 80,10 PIXEL OF _oDlg
 		
-	@ 40,100 SAY "%Comiss�o" 			SIZE 45,8 PIXEL OF _oDlg
+	@ 40,100 SAY "%Comissão" 			SIZE 45,8 PIXEL OF _oDlg
 	@ 50,100 MSGET nComissao			PICTURE "@E 999.99" SIZE 80,10 PIXEL OF _oDlg
 	
 	@ 65, 15 SAY "Historico" 			SIZE 45,8 PIXEL OF _oDlg
 	@ 75, 15 MSGET cHistorico 			PICTURE "@!" SIZE 255,10 PIXEL OF _oDlg
 	
-	@ 90, 15 SAY "Replicar Parcelas - Exce��o Hist�rico"	SIZE 150,8 PIXEL OF _oDlg
+	@ 90, 15 SAY "Replicar Parcelas - Exceção Histórico"	SIZE 150,8 PIXEL OF _oDlg
 	@ 100,15 RADIO oRadio VAR nRadio ITEMS aRadio[1],aRadio[2] SIZE 060,009 PIXEL OF _oDlg ON CHANGE Detail(_oDlg,nRadio)
 	
-	@ 150, 15 SAY "Parcelas - separados por ponto e v�rgula( ; )"	SIZE 150,8 PIXEL OF _oDlg
+	@ 150, 15 SAY "Parcelas - separados por ponto e vírgula( ; )"	SIZE 150,8 PIXEL OF _oDlg
 	@ 160, 15 MSGET cParcelas 			PICTURE "@!" SIZE 255,10 PIXEL OF _oDlg
 			
 	//+----------------------------------------------------------------------------
@@ -214,18 +214,18 @@ User Function TKAltera()
 Return
 
 /*
-�����������������������������������������������������������������������������
-�����������������������������������������������������������������������������
-�������������������������������������������������������������������������ͻ��
-���Programa  �TKMarcaBox�Autor  �Alexandre Takaki    � Data � 13/06/2018  ���
-�������������������������������������������������������������������������͹��
-���Desc.     �                                                            ���
-���          �                                                            ���
-�������������������������������������������������������������������������͹��
-���Uso       � COSTA NORTE                                                ���
-�������������������������������������������������������������������������ͼ��
-�����������������������������������������������������������������������������
-�����������������������������������������������������������������������������
+ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ
+±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+±±ÉÍÍÍÍÍÍÍÍÍÍÑÍÍÍÍÍÍÍÍÍÍËÍÍÍÍÍÍÍÑÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍËÍÍÍÍÍÍÑÍÍÍÍÍÍÍÍÍÍÍÍÍ»±±
+±±ºPrograma  ³TKMarcaBox                             º Data ³ 13/06/2018  º±±
+±±ÌÍÍÍÍÍÍÍÍÍÍØÍÍÍÍÍÍÍÍÍÍÊÍÍÍÍÍÍÍÏÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÊÍÍÍÍÍÍÏÍÍÍÍÍÍÍÍÍÍÍÍÍ¹±±
+±±ºDesc.     ³                                                            º±±
+±±º          ³                                                            º±±
+±±ÌÍÍÍÍÍÍÍÍÍÍØÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¹±±
+±±ºUso       ³ COSTA NORTE                                                º±±
+±±ÈÍÍÍÍÍÍÍÍÍÍÏÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¼±±
+±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+ßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßß
 */
 User Function TKMarcaBox()
 
@@ -244,42 +244,42 @@ User Function TKMarcaBox()
 Return .T. 
 
 /*
-�����������������������������������������������������������������������������
-�����������������������������������������������������������������������������
-�������������������������������������������������������������������������ͻ��
-���Programa  �TKLegenda �Autor  �Alexandre Takaki    � Data � 13/06/2018  ���
-�������������������������������������������������������������������������͹��
-���Desc.     �                                                            ���
-���          �                                                            ���
-�������������������������������������������������������������������������͹��
-���Uso       � COSTA NORTE                                                ���
-�������������������������������������������������������������������������ͼ��
-�����������������������������������������������������������������������������
-�����������������������������������������������������������������������������
+ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ
+±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+±±ÉÍÍÍÍÍÍÍÍÍÍÑÍÍÍÍÍÍÍÍÍÍËÍÍÍÍÍÍÍÑÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍËÍÍÍÍÍÍÑÍÍÍÍÍÍÍÍÍÍÍÍÍ»±±
+±±ºPrograma  ³TKLegenda                              º Data ³ 13/06/2018  º±±
+±±ÌÍÍÍÍÍÍÍÍÍÍØÍÍÍÍÍÍÍÍÍÍÊÍÍÍÍÍÍÍÏÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÊÍÍÍÍÍÍÏÍÍÍÍÍÍÍÍÍÍÍÍÍ¹±±
+±±ºDesc.     ³                                                            º±±
+±±º          ³                                                            º±±
+±±ÌÍÍÍÍÍÍÍÍÍÍØÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¹±±
+±±ºUso       ³ COSTA NORTE                                                º±±
+±±ÈÍÍÍÍÍÍÍÍÍÍÏÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¼±±
+±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+ßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßß
 */
 User Function TKLegenda()
 
 	Local aCor := {}
 	
-	aAdd(aCor,{"BR_VERDE"   ,"T�tulo n�o Criado na SE1"})
-	aAdd(aCor,{"BR_VERMELHO","T�tulo Criado na SE1"    })
+	aAdd(aCor,{"BR_VERDE"   ,"Título não Criado na SE1"})
+	aAdd(aCor,{"BR_VERMELHO","Título Criado na SE1"    })
 	
 	BrwLegenda(cCadastro,OemToAnsi("Registros"),aCor)
 
 Return
 
 /*/
-�����������������������������������������������������������������������������          	
-�����������������������������������������������������������������������������
-�������������������������������������������������������������������������Ŀ��
-���Funcao    �AjustaSX1 � Autor � Alexandre Takaki	    � Data �13/06/2018���
-�������������������������������������������������������������������������Ĵ��
-���Descri��o � Cria pergunta para o grupo			                      ���
-�������������������������������������������������������������������������Ĵ��
-��� Uso      � COSTA NORTE                                                ���
-��������������������������������������������������������������������������ٱ�
-�����������������������������������������������������������������������������
-�����������������������������������������������������������������������������
+ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ          	
+±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+±±ÚÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄ¿±±
+±±³Funcao    ³AjustaSX1 ³ Autor ³ Alexandre Takaki	    ³ Data ³13/06/2018³±±
+±±ÃÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄ´±±
+±±³Descrio ³ Cria pergunta para o grupo			                      ³±±
+±±ÃÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´±±
+±±³ Uso      ³ COSTA NORTE                                                ³±±
+±±ÀÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ±±
+±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+ßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßß
 /*/
 Static Function AjustaSX1(cPerg)
 	
@@ -293,10 +293,10 @@ Static Function AjustaSX1(cPerg)
 	cPerg := PADR(cPerg,10)
 	
 	AADD(aRegs,{cPerg,"01","Prefixo De ?"		,"","","mv_ch1","C",03,0,0,"G","","MV_PAR01","","","","","","","","","","","","","","","","","","","","","","","","","","","",""})
-	AADD(aRegs,{cPerg,"02","Prefixo At� ?"		,"","","mv_ch2","C",03,0,0,"G","","MV_PAR02","","","","","","","","","","","","","","","","","","","","","","","","","","","",""})
+	AADD(aRegs,{cPerg,"02","Prefixo Até ?"		,"","","mv_ch2","C",03,0,0,"G","","MV_PAR02","","","","","","","","","","","","","","","","","","","","","","","","","","","",""})
 	
 	AADD(aRegs,{cPerg,"03","Parcela De ?"		,"","","mv_ch3","C",02,0,0,"G","","MV_PAR03","","","","","","","","","","","","","","","","","","","","","","","","","","","",""})
-	AADD(aRegs,{cPerg,"04","Parcela At� ?"		,"","","mv_ch4","C",02,0,0,"G","","MV_PAR04","","","","","","","","","","","","","","","","","","","","","","","","","","","",""})
+	AADD(aRegs,{cPerg,"04","Parcela Até ?"		,"","","mv_ch4","C",02,0,0,"G","","MV_PAR04","","","","","","","","","","","","","","","","","","","","","","","","","","","",""})
 
 	AADD(aRegs,{cPerg,"05","Natureza De ?"		,"","","mv_ch5","C",10,0,0,"G","","MV_PAR05","","","","","","","","","","","","","","","","","","","","","","","","","SED","","",""})
 	AADD(aRegs,{cPerg,"06","Natureza Ate ?"		,"","","mv_ch6","C",10,0,0,"G","","MV_PAR06","","","","","","","","","","","","","","","","","","","","","","","","","SED","","",""})
@@ -307,13 +307,13 @@ Static Function AjustaSX1(cPerg)
 	AADD(aRegs,{cPerg,"09","Cliente Ate ?"		,"","","mv_ch9","C",06,0,0,"G","","MV_PAR09","","","","","","","","","","","","","","","","","","","","","","","","","SA1","","",""})
 	AADD(aRegs,{cPerg,"10","Loja Ate ?"			,"","","mv_chA","C",02,0,0,"G","","MV_PAR10","","","","","","","","","","","","","","","","","","","","","","","","","   ","","",""})
 	
-	AADD(aRegs,{cPerg,"11","Data Emiss�o De ?"	,"","","mv_chB","D",08,0,0,"G","","MV_PAR11","","","","","","","","","","","","","","","","","","","","","","","","","","","",""})
-	AADD(aRegs,{cPerg,"12","Data Emiss�o Ate ?"	,"","","mv_chC","D",08,0,0,"G","","MV_PAR12","","","","","","","","","","","","","","","","","","","","","","","","","","","",""})
+	AADD(aRegs,{cPerg,"11","Data Emissão De ?"	,"","","mv_chB","D",08,0,0,"G","","MV_PAR11","","","","","","","","","","","","","","","","","","","","","","","","","","","",""})
+	AADD(aRegs,{cPerg,"12","Data Emissão Ate ?"	,"","","mv_chC","D",08,0,0,"G","","MV_PAR12","","","","","","","","","","","","","","","","","","","","","","","","","","","",""})
 	
 	AADD(aRegs,{cPerg,"13","Data Vencto De ?"	,"","","mv_chD","D",08,0,0,"G","","MV_PAR13","","","","","","","","","","","","","","","","","","","","","","","","","","","",""})
 	AADD(aRegs,{cPerg,"14","Data Vencto Ate ?"	,"","","mv_chE","D",08,0,0,"G","","MV_PAR14","","","","","","","","","","","","","","","","","","","","","","","","","","","",""})
 	
-	AADD(aRegs,{cPerg,"15","Vis. Tit. Criados ?","","","mv_chF","C",01,0,0,"C","","MV_PAR15","Sim","","","","","N�o","","","","","","","","","","","","","","","","","","","","","",""})
+	AADD(aRegs,{cPerg,"15","Vis. Tit. Criados ?","","","mv_chF","C",01,0,0,"C","","MV_PAR15","Sim","","","","","Não","","","","","","","","","","","","","","","","","","","","","",""})
 		
 	For i:=1 to Len(aRegs)
 		If !dbSeek(cPerg+aRegs[i,2])
@@ -332,18 +332,18 @@ Static Function AjustaSX1(cPerg)
 Return()
 
 /*
-�����������������������������������������������������������������������������������
-�����������������������������������������������������������������������������������
-�������������������������������������������������������������������������������ͻ��
-���Programa  � Processar	  �Autor  � Alexandre Takaki   � Data � 13/05/2018  ���
-�������������������������������������������������������������������������������͹��
-���Desc.     � ROTINA PARA ALTERAR OS DADOS DA TABELA SZ2.						���
-���          � 												      				���
-�������������������������������������������������������������������������������͹��
-���Uso       � TV COSTA NORTE	  		                                      	���
-�������������������������������������������������������������������������������ͼ��
-�����������������������������������������������������������������������������������
-�����������������������������������������������������������������������������������
+ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ
+±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+±±ÉÍÍÍÍÍÍÍÍÍÍÑÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍËÍÍÍÍÍÍÍÑÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍËÍÍÍÍÍÍÑÍÍÍÍÍÍÍÍÍÍÍÍÍ»±±
+±±ºPrograma  ³ Processar	                           º Data ³ 13/05/2018  º±±
+±±ÌÍÍÍÍÍÍÍÍÍÍØÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÊÍÍÍÍÍÍÍÏÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÊÍÍÍÍÍÍÏÍÍÍÍÍÍÍÍÍÍÍÍÍ¹±±
+±±ºDesc.     ³ ROTINA PARA ALTERAR OS DADOS DA TABELA SZ2.						º±±
+±±º          ³ 												      				º±±
+±±ÌÍÍÍÍÍÍÍÍÍÍØÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¹±±
+±±ºUso       ³ TV COSTA NORTE	  		                                      	º±±
+±±ÈÍÍÍÍÍÍÍÍÍÍÏÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¼±±
+±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+ßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßß
 */
 Static Function Processar(cPrefixo,cNumero,cParcela,cTipo,dDataVenc,nValor,cVendedor,nComissao,cHistorico,nRadio,cParcelas,cStatus,cCentroCusto)
 
@@ -433,24 +433,24 @@ Static Function Processar(cPrefixo,cNumero,cParcela,cTipo,dDataVenc,nValor,cVend
 		
 	Else
 	
-		Alert("N�o � poss�vel alterar um registro j� criado na SE1!")
+		Alert("Não é possível alterar um registro já criado na SE1!")
 	
 	EndIf	
 		
 Return(.T.)
 
 /*/
-�����������������������������������������������������������������������������
-�����������������������������������������������������������������������������
-�������������������������������������������������������������������������Ŀ��
-���Fun��o    � DiaUtil  � Autor � Alexandre Takaki      � Data �08/03/2018���
-�������������������������������������������������������������������������Ĵ��
-���Descri��o � ROTINA PARA ENVIAR EMAIL PARA AVISO E COBRAN�A - SE1.      ���
-�������������������������������������������������������������������������Ĵ��
-���Sintaxe   � TAKAKI			                                          ���
-��������������������������������������������������������������������������ٱ�
-�����������������������������������������������������������������������������
-�����������������������������������������������������������������������������
+ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ
+±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+±±ÚÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄ¿±±
+±±³Funo    ³ DiaUtil  ³                               ³ Data ³08/03/2018³±±
+±±ÃÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄ´±±
+±±³Descrio ³ ROTINA PARA ENVIAR EMAIL PARA AVISO E COBRANÇA - SE1.      ³±±
+±±ÃÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´±±
+±±³Sintaxe   ³ TAKAKI			                                          ³±±
+±±ÀÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ±±
+±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+ßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßß
 /*/
 Static Function DiaUtil(_dData, _nDias)
 	
@@ -475,18 +475,18 @@ Static Function DiaUtil(_dData, _nDias)
 Return _dData2
 
 /*
-�����������������������������������������������������������������������������������
-�����������������������������������������������������������������������������������
-�������������������������������������������������������������������������������ͻ��
-���Programa  � TKCriarTit	  �Autor  � Alexandre Takaki   � Data � 05/08/2018  ���
-�������������������������������������������������������������������������������͹��
-���Desc.     � FUNCAO PARA APROVAR UM REGISTRO OU VARIOS E CRIAR UM TITULO.		���
-���          � 												      				���
-�������������������������������������������������������������������������������͹��
-���Uso       � TV COSTA NORTE	  		                                      	���
-�������������������������������������������������������������������������������ͼ��
-�����������������������������������������������������������������������������������
-�����������������������������������������������������������������������������������
+ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ
+±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+±±ÉÍÍÍÍÍÍÍÍÍÍÑÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍËÍÍÍÍÍÍÍÑÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍËÍÍÍÍÍÍÑÍÍÍÍÍÍÍÍÍÍÍÍÍ»±±
+±±ºPrograma  ³ TKCriarTit	                           º Data ³ 05/08/2018  º±±
+±±ÌÍÍÍÍÍÍÍÍÍÍØÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÊÍÍÍÍÍÍÍÏÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÊÍÍÍÍÍÍÏÍÍÍÍÍÍÍÍÍÍÍÍÍ¹±±
+±±ºDesc.     ³ FUNCAO PARA APROVAR UM REGISTRO OU VARIOS E CRIAR UM TITULO.		º±±
+±±º          ³ 												      				º±±
+±±ÌÍÍÍÍÍÍÍÍÍÍØÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¹±±
+±±ºUso       ³ TV COSTA NORTE	  		                                      	º±±
+±±ÈÍÍÍÍÍÍÍÍÍÍÏÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¼±±
+±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+ßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßß
 */
 User Function TKCriarTit()
 
@@ -558,25 +558,25 @@ User Function TKCriarTit()
 
 	Else
 	
-		MsgAlert("Por favor, selecione pelo menos 1 registro.","Aten��o")
+		MsgAlert("Por favor, selecione pelo menos 1 registro.","Atenção")
 
 	EndIf
 
 Return
 
 /*
-�����������������������������������������������������������������������������
-�����������������������������������������������������������������������������
-�������������������������������������������������������������������������ͻ��
-���Programa  �Detail    �Autor  �Alexandre Takaki    � Data � 12/05/2018  ���
-�������������������������������������������������������������������������͹��
-���Desc.     � Funcao que expande ou nao o msdialog.					  ���
-���          �                                                            ���
-�������������������������������������������������������������������������͹��
-���Uso       � TV COSTA NORTE                                             ���
-�������������������������������������������������������������������������ͼ��
-�����������������������������������������������������������������������������
-�����������������������������������������������������������������������������
+ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ
+±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+±±ÉÍÍÍÍÍÍÍÍÍÍÑÍÍÍÍÍÍÍÍÍÍËÍÍÍÍÍÍÍÑÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍËÍÍÍÍÍÍÑÍÍÍÍÍÍÍÍÍÍÍÍÍ»±±
+±±ºPrograma  ³Detail                                 º Data ³ 12/05/2018  º±±
+±±ÌÍÍÍÍÍÍÍÍÍÍØÍÍÍÍÍÍÍÍÍÍÊÍÍÍÍÍÍÍÏÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÊÍÍÍÍÍÍÏÍÍÍÍÍÍÍÍÍÍÍÍÍ¹±±
+±±ºDesc.     ³ Funcao que expande ou nao o msdialog.					  º±±
+±±º          ³                                                            º±±
+±±ÌÍÍÍÍÍÍÍÍÍÍØÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¹±±
+±±ºUso       ³ TV COSTA NORTE                                             º±±
+±±ÈÍÍÍÍÍÍÍÍÍÍÏÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¼±±
+±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+ßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßß
 */
 Static Function Detail(oDlg,nRadio)
 
@@ -590,18 +590,18 @@ Static Function Detail(oDlg,nRadio)
 Return  
 
 /*
-�����������������������������������������������������������������������������
-�����������������������������������������������������������������������������
-�������������������������������������������������������������������������ͻ��
-���Programa  �Detail    �Autor  �Willian Carlos    � Data �   22/09/2018  ���
-�������������������������������������������������������������������������͹��
-���Desc.     � Funcao que exclui titulos selecionados.					  ���
-���          �                                                            ���
-�������������������������������������������������������������������������͹��
-���Uso       � TV COSTA NORTE                                             ���
-�������������������������������������������������������������������������ͼ��
-�����������������������������������������������������������������������������
-�����������������������������������������������������������������������������
+ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ
+±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+±±ÉÍÍÍÍÍÍÍÍÍÍÑÍÍÍÍÍÍÍÍÍÍËÍÍÍÍÍÍÍÑÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍËÍÍÍÍÍÍÑÍÍÍÍÍÍÍÍÍÍÍÍÍ»±±
+±±ºPrograma  ³Detail                               º Data ³   22/09/2018  º±±
+±±ÌÍÍÍÍÍÍÍÍÍÍØÍÍÍÍÍÍÍÍÍÍÊÍÍÍÍÍÍÍÏÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÊÍÍÍÍÍÍÏÍÍÍÍÍÍÍÍÍÍÍÍÍ¹±±
+±±ºDesc.     ³ Funcao que exclui titulos selecionados.					  º±±
+±±º          ³                                                            º±±
+±±ÌÍÍÍÍÍÍÍÍÍÍØÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¹±±
+±±ºUso       ³ TV COSTA NORTE                                             º±±
+±±ÈÍÍÍÍÍÍÍÍÍÍÏÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¼±±
+±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+ßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßß
 */
 
 User Function TKDeleta()
@@ -630,7 +630,7 @@ User Function TKDeleta()
 
 	Else
 	
-		MsgAlert("Por favor, selecione pelo menos 1 registro.","Aten��o")
+		MsgAlert("Por favor, selecione pelo menos 1 registro.","Atenção")
 
 	EndIf
 
